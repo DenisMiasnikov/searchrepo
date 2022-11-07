@@ -1,0 +1,135 @@
+
+.container {
+    margin: 0px;
+}
+
+.wrapper {
+    margin: 0px auto;
+    padding: 60px 0px;
+    width: 661px;
+    min-height: 763px;
+    background-color: #C4C4C4;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input {
+    padding: 0px 13px;
+    width: 474px;
+    height: 61px;
+    border: unset;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.form-input:focus-visible {
+    outline: unset;
+}
+
+.suggestionlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.suggestionlist-item {
+    width: 500px;
+    height: 44px;
+    padding: 0px 13px;
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    text-align: left;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.suggestionlist-item:hover{
+    background-color: #65CDF9;
+}
+
+.cardlist {
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.cardlist-item {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 471px;
+    height: 85px;
+    background-color: #E27BEB;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 8px 16px;
+}
+
+.close{
+    background-color: unset;
+    border: none;
+    padding: 0px;
+    position: absolute;
+    top: 32px;
+    right: 33px;
+    height: 40px;
+    width: 40px;
+    color: #FF0000;
+}
+
+.close:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: -6px;
+    width: 51px;
+    height: 4px;
+    background: #e62f57;
+    transform: rotate(45deg);
+}
+
+.close:after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: -6px;
+    width: 51px;
+    height: 4px;
+    background: #e62f57;
+    transform: rotate(-45deg);
+}
+
+.content {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    flex-grow: 1;
+}
